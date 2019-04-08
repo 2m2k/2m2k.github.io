@@ -10,6 +10,7 @@ body
 h1
 {
 	font-size: 36px;
+	margin-top: 30px;
 }
 
 .recipes-new
@@ -43,7 +44,7 @@ h1
 
 nav {
 	padding: 7%;
-	background-image: url('img/lukas-blazek-261682-unsplash.jpg'); /*Photo by Lukas Blazek on Unsplash*/
+	background-image: url('https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80.jpg'); /*Photo by Lukas Blazek on Unsplash*/
 	background-repeat: no-repeat;
 	/*background-position: center top;*/
 	background-size: cover;
@@ -52,6 +53,8 @@ nav {
 	box-shadow: 0px 10px 39px -5px rgba(0,0,0,0.49);
 }
 
-/*.nav-link {*/
-	/*font-size: 70px;*/
-/*}*/
+.nav-link {
+	/*font-weight: bold;*/
+	color: #000000 !important;
+	font-size: 21px;
+}
